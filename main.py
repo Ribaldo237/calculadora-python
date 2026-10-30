@@ -1,7 +1,4 @@
-numero1 = 10
-numero2 = 5
+from function import somar, subtrair
 
-resultado = numero1 + numero2
-
-print(resultado)
-print("TEste do push ou add seila porra")
+print(somar(10, 5))
+print(subtrair(10, 5))
